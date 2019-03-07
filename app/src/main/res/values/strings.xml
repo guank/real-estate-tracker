@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Homes</string>
+
+    <!-- Label for overflow menu option that inserts fake home data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all home data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Homes</string>
+
+    <!-- Title for the activity to add a new home [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_home">Add a Home</string>
+
+    <!-- Label for editor menu option to save home and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current home [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for type information in the editor [CHAR LIMIT=30] -->
+    <string name="category_type">Type</string>
+
+    <!-- Label for income information in the editor [CHAR LIMIT=30] -->
+    <string name="category_income">Income</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_home_address">Address</string>
+
+    <!-- Text hint for county field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_home_county">County</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_home_income">Rent</string>
+
+    <!-- Units for weight of the home (monthly) [CHAR LIMIT=5] -->
+    <string name="unit_home_income">/mo</string>
+
+    <!-- Label for dropdown menu option if the home's type is unknown [CHAR LIMIT=20] -->
+    <string name="type_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the home is single [CHAR LIMIT=20] -->
+    <string name="type_single">Single</string>
+
+    <!-- Label for dropdown menu option if the home is multi [CHAR LIMIT=20] -->
+    <string name="type_multi">Multi</string>
+
+    <!-- Toast message in editor when new home has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_home_successful">Home saved</string>
+
+    <!-- Toast message in editor when new home has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_home_failed">Error with saving home</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit empty here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a home [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a home</string>
+
+    <!-- Title text for activity to edit existing property [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_home">Edit Home</string>
+
+    <!-- Toast message in editor when current home was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_home_successful">Home updated</string>
+
+    <!-- Toast message in editor when current home has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_home_failed">Error with updating home</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current home [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current home was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_home_successful">Home deleted</string>
+
+    <!-- Toast message in editor when current home has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_home_failed">Error with deleting home</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current home [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this home?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current home [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current home [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for the home's county if the county is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_county">Unknown county</string>
+
+</resources>
